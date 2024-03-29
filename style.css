@@ -1,0 +1,236 @@
+* {
+  margin: auto;
+  padding: auto;
+}
+
+
+.navigation {
+  display: flex;
+  height: 6vw;
+  background-color:darkcyan;
+}
+
+.navigation a{
+  display: inline-block;
+  font-size: 1.5vw;
+  text-decoration:dashed;
+  padding-right: 2.7vw;   
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.navigation a:hover{
+  color: darkorange;
+  transition: 0.1s ease-in-out;
+  text-decoration:underline;   
+}
+.left {
+  width: 335px; 
+  align-items:flex-start;
+  
+}
+.left span{
+
+  font-size: 25px; /* Adjust font size as needed */
+  font-weight: bold; /* Make the text bold */
+  color: #fff; /* Set text color to white */
+  padding: 10px; /* Add padding for better spacing */
+  text-transform: capitalize; /* Convert text to uppercase */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS'; /* Use a specific font family */
+        border-radius: 10px; /* Add border radius for rounded corners */
+  margin-right: auto; /* Push the text to the left */
+
+
+}
+
+.left img {
+  width: 30%;
+  padding-bottom: 25px;
+
+}
+
+
+.footer {
+  height: 9vw;
+
+}
+
+.searchbar {
+  padding: 1vw;
+  width:8vw;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  font-size:1vw;
+  transition: all 0.3s ease;
+}
+
+.searchbar:focus {
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add shadow on focus */
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 97.8%;
+position: relative;
+margin-top: 5.7px;
+height: 30%;
+}
+
+/* Hide the images by default */
+.mySlides {
+display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 40%;
+width: auto;
+margin-top: -22px;
+padding: 26px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+animation-name: mymove;
+animation-duration: 2s;
+}
+
+@keyframes fade {
+from {left:0px;}
+to {left: 200px}
+}
+
+.etp{
+font-size: 22px;
+margin-top: 16px;
+
+border: 1px solid black;
+margin: 0;
+font-size: 45px;
+padding-left: 20px;
+padding-right: 20px;
+position: absolute;
+top: 109%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+background-color:darkcyan;
+color: white;
+}
+.etp:hover{
+background-color: white;
+color: darkorange;
+text-decoration: dashed;
+transition: 0.4s ease-in-out;
+}
+.article{
+background-color:azure;
+height: 2900px;
+width: 95%;
+color: darkcyan;
+font-weight: 900;
+
+}
+.article h2{
+padding-left:20px;
+font-size: 39.4px;
+}
+
+.content-article {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 20px;
+
+}
+
+.content-article img {
+width: 47%;
+transition: transform 0.5s ease-in-out;
+}
+
+.content-article img:hover {
+transform: scale(1.1);
+}
+.tail{
+margin-top: 120px;
+}
+.article .content-article .post {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.article .content-article .post img {
+  width: 40%;
+  margin-right: 1rem;
+}
+
+.article .content-article .post .post-text {
+  flex: 1;
+}
+
+.article .content-article .post .post-text h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+
+
